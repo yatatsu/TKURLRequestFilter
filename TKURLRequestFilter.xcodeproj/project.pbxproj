@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44FD00D219A63A260099939F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FD00D119A63A260099939F /* Foundation.framework */; };
+		44FD00D419A63A260099939F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FD00D319A63A260099939F /* CoreGraphics.framework */; };
+		44FD00D619A63A260099939F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FD00D519A63A260099939F /* UIKit.framework */; };
+		44FD00DC19A63A260099939F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44FD00DA19A63A260099939F /* InfoPlist.strings */; };
+		44FD00DE19A63A260099939F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FD00DD19A63A260099939F /* main.m */; };
+		44FD00E219A63A260099939F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FD00E119A63A260099939F /* AppDelegate.m */; };
+		44FD00E519A63A260099939F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44FD00E319A63A260099939F /* Main.storyboard */; };
+		44FD00E819A63A260099939F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FD00E719A63A260099939F /* ViewController.m */; };
+		44FD00EA19A63A260099939F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44FD00E919A63A260099939F /* Images.xcassets */; };
+		44FD00F119A63A260099939F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FD00F019A63A260099939F /* XCTest.framework */; };
+		44FD00F219A63A260099939F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FD00D119A63A260099939F /* Foundation.framework */; };
+		44FD00F319A63A260099939F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FD00D519A63A260099939F /* UIKit.framework */; };
+		44FD00FB19A63A260099939F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44FD00F919A63A260099939F /* InfoPlist.strings */; };
+		44FD00FD19A63A260099939F /* TKURLRequestFilterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FD00FC19A63A260099939F /* TKURLRequestFilterTests.m */; };
+		44FD010919A641510099939F /* TKURLRequestFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FD010819A641510099939F /* TKURLRequestFilter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44FD00F419A63A260099939F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44FD00C619A63A260099939F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44FD00CD19A63A260099939F;
+			remoteInfo = TKURLRequestFilter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44FD00CE19A63A260099939F /* TKURLRequestFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TKURLRequestFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44FD00D119A63A260099939F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		44FD00D319A63A260099939F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		44FD00D519A63A260099939F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		44FD00D919A63A260099939F /* TKURLRequestFilter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TKURLRequestFilter-Info.plist"; sourceTree = "<group>"; };
+		44FD00DB19A63A260099939F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		44FD00DD19A63A260099939F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44FD00DF19A63A260099939F /* TKURLRequestFilter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TKURLRequestFilter-Prefix.pch"; sourceTree = "<group>"; };
+		44FD00E019A63A260099939F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		44FD00E119A63A260099939F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		44FD00E419A63A260099939F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44FD00E619A63A260099939F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		44FD00E719A63A260099939F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		44FD00E919A63A260099939F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		44FD00EF19A63A260099939F /* TKURLRequestFilterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TKURLRequestFilterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44FD00F019A63A260099939F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		44FD00F819A63A260099939F /* TKURLRequestFilterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TKURLRequestFilterTests-Info.plist"; sourceTree = "<group>"; };
+		44FD00FA19A63A260099939F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		44FD00FC19A63A260099939F /* TKURLRequestFilterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKURLRequestFilterTests.m; sourceTree = "<group>"; };
+		44FD010719A641510099939F /* TKURLRequestFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKURLRequestFilter.h; sourceTree = "<group>"; };
+		44FD010819A641510099939F /* TKURLRequestFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKURLRequestFilter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44FD00CB19A63A260099939F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44FD00D419A63A260099939F /* CoreGraphics.framework in Frameworks */,
+				44FD00D619A63A260099939F /* UIKit.framework in Frameworks */,
+				44FD00D219A63A260099939F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44FD00EC19A63A260099939F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44FD00F119A63A260099939F /* XCTest.framework in Frameworks */,
+				44FD00F319A63A260099939F /* UIKit.framework in Frameworks */,
+				44FD00F219A63A260099939F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44FD00C519A63A260099939F = {
+			isa = PBXGroup;
+			children = (
+				44FD010619A63AC20099939F /* TKURLRequestFilter */,
+				44FD00D719A63A260099939F /* TKURLRequestFilterSample */,
+				44FD00F619A63A260099939F /* TKURLRequestFilterTests */,
+				44FD00D019A63A260099939F /* Frameworks */,
+				44FD00CF19A63A260099939F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44FD00CF19A63A260099939F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44FD00CE19A63A260099939F /* TKURLRequestFilter.app */,
+				44FD00EF19A63A260099939F /* TKURLRequestFilterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44FD00D019A63A260099939F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44FD00D119A63A260099939F /* Foundation.framework */,
+				44FD00D319A63A260099939F /* CoreGraphics.framework */,
+				44FD00D519A63A260099939F /* UIKit.framework */,
+				44FD00F019A63A260099939F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44FD00D719A63A260099939F /* TKURLRequestFilterSample */ = {
+			isa = PBXGroup;
+			children = (
+				44FD00E019A63A260099939F /* AppDelegate.h */,
+				44FD00E119A63A260099939F /* AppDelegate.m */,
+				44FD00E319A63A260099939F /* Main.storyboard */,
+				44FD00E619A63A260099939F /* ViewController.h */,
+				44FD00E719A63A260099939F /* ViewController.m */,
+				44FD00E919A63A260099939F /* Images.xcassets */,
+				44FD00D819A63A260099939F /* Supporting Files */,
+			);
+			path = TKURLRequestFilterSample;
+			sourceTree = "<group>";
+		};
+		44FD00D819A63A260099939F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44FD00D919A63A260099939F /* TKURLRequestFilter-Info.plist */,
+				44FD00DA19A63A260099939F /* InfoPlist.strings */,
+				44FD00DD19A63A260099939F /* main.m */,
+				44FD00DF19A63A260099939F /* TKURLRequestFilter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44FD00F619A63A260099939F /* TKURLRequestFilterTests */ = {
+			isa = PBXGroup;
+			children = (
+				44FD00FC19A63A260099939F /* TKURLRequestFilterTests.m */,
+				44FD00F719A63A260099939F /* Supporting Files */,
+			);
+			path = TKURLRequestFilterTests;
+			sourceTree = "<group>";
+		};
+		44FD00F719A63A260099939F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44FD00F819A63A260099939F /* TKURLRequestFilterTests-Info.plist */,
+				44FD00F919A63A260099939F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44FD010619A63AC20099939F /* TKURLRequestFilter */ = {
+			isa = PBXGroup;
+			children = (
+				44FD010719A641510099939F /* TKURLRequestFilter.h */,
+				44FD010819A641510099939F /* TKURLRequestFilter.m */,
+			);
+			path = TKURLRequestFilter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44FD00CD19A63A260099939F /* TKURLRequestFilter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44FD010019A63A260099939F /* Build configuration list for PBXNativeTarget "TKURLRequestFilter" */;
+			buildPhases = (
+				44FD00CA19A63A260099939F /* Sources */,
+				44FD00CB19A63A260099939F /* Frameworks */,
+				44FD00CC19A63A260099939F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TKURLRequestFilter;
+			productName = TKURLRequestFilter;
+			productReference = 44FD00CE19A63A260099939F /* TKURLRequestFilter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44FD00EE19A63A260099939F /* TKURLRequestFilterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44FD010319A63A260099939F /* Build configuration list for PBXNativeTarget "TKURLRequestFilterTests" */;
+			buildPhases = (
+				44FD00EB19A63A260099939F /* Sources */,
+				44FD00EC19A63A260099939F /* Frameworks */,
+				44FD00ED19A63A260099939F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44FD00F519A63A260099939F /* PBXTargetDependency */,
+			);
+			name = TKURLRequestFilterTests;
+			productName = TKURLRequestFilterTests;
+			productReference = 44FD00EF19A63A260099939F /* TKURLRequestFilterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44FD00C619A63A260099939F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Tatsuya Kitagawa";
+				TargetAttributes = {
+					44FD00EE19A63A260099939F = {
+						TestTargetID = 44FD00CD19A63A260099939F;
+					};
+				};
+			};
+			buildConfigurationList = 44FD00C919A63A260099939F /* Build configuration list for PBXProject "TKURLRequestFilter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44FD00C519A63A260099939F;
+			productRefGroup = 44FD00CF19A63A260099939F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44FD00CD19A63A260099939F /* TKURLRequestFilter */,
+				44FD00EE19A63A260099939F /* TKURLRequestFilterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44FD00CC19A63A260099939F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44FD00EA19A63A260099939F /* Images.xcassets in Resources */,
+				44FD00DC19A63A260099939F /* InfoPlist.strings in Resources */,
+				44FD00E519A63A260099939F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44FD00ED19A63A260099939F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44FD00FB19A63A260099939F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44FD00CA19A63A260099939F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44FD010919A641510099939F /* TKURLRequestFilter.m in Sources */,
+				44FD00E819A63A260099939F /* ViewController.m in Sources */,
+				44FD00E219A63A260099939F /* AppDelegate.m in Sources */,
+				44FD00DE19A63A260099939F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44FD00EB19A63A260099939F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44FD00FD19A63A260099939F /* TKURLRequestFilterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44FD00F519A63A260099939F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44FD00CD19A63A260099939F /* TKURLRequestFilter */;
+			targetProxy = 44FD00F419A63A260099939F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44FD00DA19A63A260099939F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44FD00DB19A63A260099939F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		44FD00E319A63A260099939F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44FD00E419A63A260099939F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44FD00F919A63A260099939F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44FD00FA19A63A260099939F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44FD00FE19A63A260099939F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		44FD00FF19A63A260099939F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44FD010119A63A260099939F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TKURLRequestFilterSample/TKURLRequestFilter-Prefix.pch";
+				INFOPLIST_FILE = "TKURLRequestFilterSample/TKURLRequestFilter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		44FD010219A63A260099939F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TKURLRequestFilterSample/TKURLRequestFilter-Prefix.pch";
+				INFOPLIST_FILE = "TKURLRequestFilterSample/TKURLRequestFilter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		44FD010419A63A260099939F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TKURLRequestFilter.app/TKURLRequestFilter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TKURLRequestFilter/TKURLRequestFilter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TKURLRequestFilterTests/TKURLRequestFilterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		44FD010519A63A260099939F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TKURLRequestFilter.app/TKURLRequestFilter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TKURLRequestFilter/TKURLRequestFilter-Prefix.pch";
+				INFOPLIST_FILE = "TKURLRequestFilterTests/TKURLRequestFilterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44FD00C919A63A260099939F /* Build configuration list for PBXProject "TKURLRequestFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44FD00FE19A63A260099939F /* Debug */,
+				44FD00FF19A63A260099939F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44FD010019A63A260099939F /* Build configuration list for PBXNativeTarget "TKURLRequestFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44FD010119A63A260099939F /* Debug */,
+				44FD010219A63A260099939F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44FD010319A63A260099939F /* Build configuration list for PBXNativeTarget "TKURLRequestFilterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44FD010419A63A260099939F /* Debug */,
+				44FD010519A63A260099939F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44FD00C619A63A260099939F /* Project object */;
+}
